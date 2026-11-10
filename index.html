@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy: Monday Notification Extension</title>
+<style>
+body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px 64px;color:#1b1f24;background:#fff}
+h1{font-size:28px;margin:0 0 8px}h2{font-size:20px;margin:32px 0 8px}
+code{background:#f0f2f5;padding:1px 5px;border-radius:4px;font-size:.92em}
+li{margin:4px 0}
+@media (prefers-color-scheme:dark){body{background:#14171c;color:#e6e8eb}code{background:#262b33}}
+</style></head><body>
+<h1>Privacy Policy: Monday Notification Extension</h1>
+<p><strong>Last updated:</strong> November 10, 2026</p>
+<p><strong>Developer:</strong> Juz Tuballa</p>
+<p><strong>Contact:</strong> juztine.dev@gmail.com</p>
+<p>Monday Notification Extension (&quot;the extension&quot;) is a browser extension that shows desktop notifications when you, or teams or people you choose, are tagged in your monday.com updates. This policy explains what the extension handles and what it does not.</p>
+<h2>Summary</h2>
+<ul>
+<li>Your data stays in your browser. The developer has no servers and receives none of your data.</li>
+<li>The extension connects only to monday.com&#x27;s API (<code>https://api.monday.com</code>) using your own token.</li>
+<li>No analytics, tracking, advertising, or third-party services.</li>
+<li>Your data is never sold or shared.</li>
+</ul>
+<h2>What the extension stores</h2>
+<p>All of the following is saved locally in your browser using Chrome&#x27;s extension storage (<code>chrome.storage.local</code>) on your device:</p>
+<ul>
+<li><strong>Your monday.com personal API token</strong>, which you enter in Settings.</li>
+<li><strong>Your settings:</strong> selected teams/people and their priority levels, notification and severity preferences, urgent keywords.</li>
+<li><strong>A list of recent tags</strong> (up to 100): the sender&#x27;s name, the first 200 characters of the update text, time, priority, and a link to the item.</li>
+<li><strong>Technical bookkeeping:</strong> IDs of updates already processed, last successful check time, and the last error message.</li>
+</ul>
+<p>Chrome extension storage is not encrypted. Anyone with access to your computer and browser profile could potentially read it, so protect your device and treat your API token like a password.</p>
+<h2>What the extension sends, and where</h2>
+<p>To work, the extension sends requests to <strong>api.monday.com</strong> (monday.com&#x27;s official API), including your API token for authentication, to read:</p>
+<ul>
+<li>your name and account ID,</li>
+<li>recent updates and replies (text, author, time, item ID),</li>
+<li>the list of teams and users in your account (so you can choose whom to follow),</li>
+<li>item links.</li>
+</ul>
+<p>This is the only network destination. The extension does not send data to the developer or to any other party.</p>
+<h2>What the extension does not do</h2>
+<ul>
+<li>It does not collect analytics, usage statistics, or crash reports.</li>
+<li>It does not track browsing or read other websites.</li>
+<li>It does not use advertising or third-party SDKs.</li>
+<li>It does not sell, rent, or share your data.</li>
+<li>It does not run remotely hosted code.</li>
+<li>It does not use your data for anything other than showing you notifications.</li>
+</ul>
+<h2>Notifications</h2>
+<p>Notification text (sender and the first part of an update) appears in your operating system&#x27;s notification area. Notifications may be visible to others who can see your screen or may be logged by your operating system&#x27;s notification history.</p>
+<h2>Permissions</h2>
+<ul>
+<li><code>storage</code>: save the settings and data above locally</li>
+<li><code>alarms</code>: check for new updates once per minute</li>
+<li><code>notifications</code>: show desktop notifications</li>
+<li><code>https://api.monday.com/*</code>: read your updates via the monday.com API</li>
+</ul>
+<h2>Controlling and deleting your data</h2>
+<ul>
+<li>Press <strong>Reset (start fresh)</strong> in Settings to clear the processed-update history and the recent list.</li>
+<li>Remove the extension (chrome://extensions) to delete all data it stored.</li>
+<li>You can revoke your API token at any time in monday.com (profile picture &gt; Developers &gt; My access tokens), which immediately stops the extension from accessing your account.</li>
+</ul>
+<h2>Third parties</h2>
+<p>monday.com processes the requests the extension makes under its own terms and privacy policy. This extension is unofficial and is not affiliated with, endorsed by, or sponsored by monday.com.</p>
+<h2>Children</h2>
+<p>The extension is not directed to children under 13.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the &quot;Last updated&quot; date above will change, and material changes will be noted in the extension&#x27;s store listing.</p>
+<h2>Contact</h2>
+<p>Questions? Email juztine.dev@gmail.com.</p>
+</body></html>
